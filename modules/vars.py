@@ -22,7 +22,7 @@ if OWNER == 0:
     raise ValueError("OWNER environment variable is required. Your Telegram user ID (get from @userinfobot)")
 
 # Bot credit/name
-CREDIT = environ.get("CREDIT", "HARRY BOTS")
+CREDIT = environ.get("CREDIT", "𓍯𝙎𝙪𝙟𝙖𝙡⚝")
 
 # YouTube cookies file path
 cookies_file_path = os.getenv("cookies_file_path", "youtube_cookies.txt")
