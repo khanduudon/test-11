@@ -17,7 +17,7 @@ if not BOT_TOKEN:
     raise ValueError("BOT_TOKEN environment variable is required. Get it from @BotFather on Telegram")
 
 # Owner Telegram user ID
-OWNER = int(environ.get("OWNER") or "7385595817")
+OWNER = int(environ.get("OWNER") or "8383373235")
 if OWNER == 0:
     raise ValueError("OWNER environment variable is required. Your Telegram user ID (get from @userinfobot)")
 
